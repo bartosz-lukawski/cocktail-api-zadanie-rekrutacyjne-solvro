@@ -1,0 +1,20 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Cocktail API",
+        "version": "1.0.0",
+        "description": "API for managing cocktails and ingredients"
+    },
+    "paths": {
+        "/cocktails": {
+            "get": {
+                "summary": "List all cocktails",
+                "responses": {
+                    "200": {
+                        "description": "List of cocktails"
+                    }
+                }
+            }
+        }
+    }
+}
